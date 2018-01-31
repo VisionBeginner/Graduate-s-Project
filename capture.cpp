@@ -315,5 +315,6 @@ void close_camera_device(int fd)
 		exit(EXIT_FAILURE);
 	}
 }
+ 
 
 
