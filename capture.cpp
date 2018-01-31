@@ -316,4 +316,3 @@ void close_camera_device(int fd)
 	}
 }
 
-
