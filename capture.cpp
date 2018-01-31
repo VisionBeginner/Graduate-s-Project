@@ -317,13 +317,3 @@ void close_camera_device(int fd)
 }
 
 
-void main(void)
-{
-	int fd;
-	fd = open_camera();
-	init_camera(fd);
-	start_capture(fd);
-	mainloop(fd);
-	stop_capture(fd);
-	close_camera_device(fd);
-}
